@@ -2,10 +2,11 @@
 package ec.edu.uagraria.prog3;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 
-class CalculadoraCostosTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class CalculadoraCostoTest {
 
     private Lote loteBanano() {
         return new Lote("L-01", new Banano("Cavendish"), 4.0, List.of(
@@ -18,11 +19,10 @@ class CalculadoraCostosTest {
     // PRUEBA 1: Costo directo
     @Test
     void costoDirectoSumaLosInsumos() {
-        var lote = loteBanano();
         var calc = new CalculadoraCostos(Estrategias.costoDirecto());
 
         assertEquals(744.00,
-                calc.calcular(lote).orElseThrow(), 0.01);
+                calc.calcular(loteBanano()).orElseThrow(), 0.01);
     }
 
     // PRUEBA 2: Costo con mano de obra
@@ -97,4 +97,3 @@ class CalculadoraCostosTest {
         assertTrue(calc.calcular(loteBanano()).isEmpty());
     }
 }
-
