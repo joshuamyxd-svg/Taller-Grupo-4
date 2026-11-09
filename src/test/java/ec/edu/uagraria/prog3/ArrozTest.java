@@ -1,5 +1,6 @@
 package ec.edu.uagraria.prog3;
 
+import ec.edu.uagraria.prog3.dominio.Arroz;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,11 @@
 
 package ec.edu.uagraria.prog3;
 
+import ec.edu.uagraria.prog3.dominio.Banano;
+import ec.edu.uagraria.prog3.dominio.Insumo;
+import ec.edu.uagraria.prog3.dominio.Lote;
+import ec.edu.uagraria.prog3.reglas.CalculadoraCostos;
+import ec.edu.uagraria.prog3.reglas.Estrategias;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 

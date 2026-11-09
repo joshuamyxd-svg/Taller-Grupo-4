@@ -1,5 +1,5 @@
 
-package ec.edu.uagraria.prog3;
+package ec.edu.uagraria.prog3.dominio;
 
 import java.util.List;
 

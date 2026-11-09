@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import ec.edu.uagraria.prog3.dominio.Cacao;
 import org.junit.jupiter.api.Test;
 
 class CacaoTest {

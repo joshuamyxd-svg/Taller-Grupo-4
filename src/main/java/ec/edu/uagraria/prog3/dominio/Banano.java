@@ -1,5 +1,5 @@
 
-package ec.edu.uagraria.prog3;
+package ec.edu.uagraria.prog3.dominio;
 
 public record Banano(String variedad) implements Cultivo {
 

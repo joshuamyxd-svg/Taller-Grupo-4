@@ -1,5 +1,7 @@
 
-package ec.edu.uagraria.prog3;
+package ec.edu.uagraria.prog3.reglas;
+
+import ec.edu.uagraria.prog3.dominio.Insumo;
 
 public final class Estrategias {
 
