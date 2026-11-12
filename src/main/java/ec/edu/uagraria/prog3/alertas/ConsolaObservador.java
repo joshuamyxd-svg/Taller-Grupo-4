@@ -1,5 +1,8 @@
 package ec.edu.uagraria.prog3.alertas;
 
+/**
+ * Observador que imprime las alertas en la consola.
+ */
 public class ConsolaObservador implements ObservadorAlertas {
 
     @Override

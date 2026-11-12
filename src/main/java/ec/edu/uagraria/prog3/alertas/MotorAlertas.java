@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Motor que evalúa reglas de alerta y notifica a los observadores registrados.
+ */
 public class MotorAlertas {
 
     private final List<ReglaAlerta> reglas = new ArrayList<>();
