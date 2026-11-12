@@ -2,3 +2,5 @@ target/
 .idea/
 *.iml
 out/
+src/main/java/ec/edu/uagraria/riegosmart/alertas/
+src/main/java/ec/edu/uagraria/riegosmart/fabrica/

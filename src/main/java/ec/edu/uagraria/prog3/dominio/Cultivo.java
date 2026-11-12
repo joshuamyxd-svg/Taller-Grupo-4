@@ -1,1 +1,0 @@
-package ec.edu.uagraria.prog3.dominio; public sealed interface Cultivo extends ProductoRiego permits Banano, Cacao, Arroz {    String nombreComun();}
