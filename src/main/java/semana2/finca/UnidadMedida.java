@@ -13,6 +13,11 @@ public enum UnidadMedida {
         this.factorAKilos = factorAKilos;
     }
 
-    public double aKilos(double cantidad) { return cantidad * factorAKilos; }
-    public String simbolo() { return simbolo; }
+    public double aKilos(double cantidad) {
+        return cantidad * factorAKilos;
+    }
+
+    public String simbolo() {
+        return simbolo;
+    }
 }
